@@ -17,7 +17,7 @@ namespace app;
     {
         private MySqlConnection GetMySqlConnection()
         {
-            string connectionString = @"server=localhost;port=3306;database=northwind;user=root;password=!Mustang12345;";
+            string connectionString = @"server=localhost;port=3306;database=northwind;user=root;password=[yourPassword];";
             return new MySqlConnection(connectionString);         
         }
         public int Create(Product p)
